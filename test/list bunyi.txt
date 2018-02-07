@@ -1,0 +1,23 @@
+a =pygame.mixer.music.load("wav/a1.wav")
+a1=pygame.mixer.music.load("wav/a1s.wav")
+b =pygame.mixer.music.load("wav/b1.wav")
+c =pygame.mixer.music.load("wav/c2.wav")
+c1=pygame.mixer.music.load("wav/c1s.wav")
+d =pygame.mixer.music.load("wav/d1.wav")
+d1=pygame.mixer.music.load("wav/d1s.wav")
+e =pygame.mixer.music.load("wav/e1.wav")
+f =pygame.mixer.music.load("wav/f1.wav")
+f1=pygame.mixer.music.load("wav/f1s.wav")
+g =pygame.mixer.music.load("wav/g1.wav")
+g1=pygame.mixer.music.load("wav/g1s.wav")
+
+main.py  main code
+main2.py untuk main semua key
+main3.py untuk main key A minor scale
+main4.py untuk main key C minor scale
+main5.py boleh pilih key aminor atau cminor
+
+
+c minor:
+
+C D D# F G G# A C
