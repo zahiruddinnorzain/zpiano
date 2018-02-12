@@ -1,0 +1,27 @@
+{
+  "name": "zpiano",
+  "version": "1.0.0",
+  "description": "auto play piano",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"start": "python main.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zahiruddinnorzain/zpiano.git"
+  },
+  "keywords": [
+    "piano",
+    "autoplay"
+  ],
+  "author": "zahiruddin norzain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zahiruddinnorzain/zpiano/issues"
+  },
+  "homepage": "https://github.com/zahiruddinnorzain/zpiano#readme"
+}
