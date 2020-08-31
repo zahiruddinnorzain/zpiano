@@ -65,7 +65,7 @@ key=bunyi()
 while True:
 
 	gen=random.randint(0, 6)
-	print gen
+	print (gen)
 
 	if gen==0:
 		key.a()	
@@ -92,7 +92,7 @@ while True:
 
 	key.play()
 	gap=random.uniform(0, 1)
-	print gap
+	print (gap)
 	time.sleep(gap)
 	key.stop()
 

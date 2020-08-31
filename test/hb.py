@@ -60,7 +60,7 @@ class bunyi:
 def play():
 	key.play()
 	gap=random.uniform(0.3, 1.3)
-	print gap
+	print (gap)
 	time.sleep(gap)
 	key.stop()
 
@@ -75,37 +75,37 @@ while True:
 
 	key.g()
 	key.play()
-	print 'g'
+	print ('g')
 	time.sleep(0.3)
 	key.stop()
 
 	key.g()
 	key.play()
-	print 'g'
+	print ('g')
 	time.sleep(0.5)
 	key.stop()
 
 	key.a()
 	key.play()
-	print 'a'
+	print ('a')
 	time.sleep(0.8)
 	key.stop()
 
 	key.g()
 	key.play()
-	print 'g'
+	print ('g')
 	time.sleep(0.7)
 	key.stop()
 
 	key.c()
 	key.play()
-	print 'c'
+	print ('c')
 	time.sleep(0.8)
 	key.stop()
 
 	key.b()
 	key.play()
-	print 'b'
+	print ('b')
 	time.sleep(0.8)
 	key.stop()
 
@@ -114,37 +114,37 @@ while True:
 	
 	key.g()
 	key.play()
-	print 'g'
+	print ('g')
 	time.sleep(0.3)
 	key.stop()
 
 	key.g()
 	key.play()
-	print 'g'
+	print ('g')
 	time.sleep(0.5)
 	key.stop()
 
 	key.a()
 	key.play()
-	print 'a'
+	print ('a')
 	time.sleep(0.8)
 	key.stop()
 
 	key.g()
 	key.play()
-	print 'g'
+	print ('g')
 	time.sleep(0.7)
 	key.stop()
 
 	key.d()
 	key.play()
-	print 'd'
+	print ('d')
 	time.sleep(0.8)
 	key.stop()
 
 	key.c()
 	key.play()
-	print 'c'
+	print ('c')
 	time.sleep(0.8)
 	key.stop()
 
@@ -152,37 +152,37 @@ while True:
 	for x in range(0, 2):
 		key.g()
 		key.play()
-		print 'g'
+		print ('g')
 		time.sleep(0.3)
 		key.stop()
 
 	key.g()
 	key.play()
-	print 'g'
+	print ('g')
 	time.sleep(0.8)
 	key.stop()
 
 	key.e()
 	key.play()
-	print 'e'
+	print ('e')
 	time.sleep(0.8)
 	key.stop()
 
 	key.c()
 	key.play()
-	print 'c'
+	print ('c')
 	time.sleep(0.8)
 	key.stop()
 
 	key.b()
 	key.play()
-	print 'b'
+	print ('b')
 	time.sleep(0.8)
 	key.stop()
 
 	key.a()
 	key.play()
-	print 'a'
+	print ('a')
 	time.sleep(0.8)
 	key.stop()
 

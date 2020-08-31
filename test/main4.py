@@ -65,7 +65,7 @@ key=bunyi()		#assign object to class
 while True:
 
 	gen=random.randint(0, 6)
-	print gen
+	print (gen)
 
 	if gen==0:
 		key.c()	
@@ -92,7 +92,7 @@ while True:
 
 	key.play()
 	gap=random.uniform(0.3, 1)
-	print gap
+	print (gap)
 	time.sleep(gap)
 	key.stop()
 

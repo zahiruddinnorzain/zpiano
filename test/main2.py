@@ -60,7 +60,7 @@ class bunyi:
 def play():
 	key.play()
 	gap=random.uniform(0.3, 1.3)
-	print gap
+	print (gap)
 	time.sleep(gap)
 	key.stop()
 
@@ -72,7 +72,7 @@ key=bunyi()
 while True:
 
 	gen=random.randint(0, 11)
-	print gen
+	print (gen)
 
 	if gen==0:
 		key.a()

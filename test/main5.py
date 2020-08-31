@@ -60,7 +60,7 @@ class bunyi:
 def play():
 	key.play()
 	gap=random.uniform(0.3, 1.3)
-	print gap
+	print (gap)
 	time.sleep(gap)
 	key.stop()
 
@@ -69,12 +69,12 @@ pygame.init()
 
 key=bunyi()		#assign object to class
 
-scale=raw_input('key apa: ')
+scale=input('key apa: ')
 
 while scale=='c':
 
 	gen=random.randint(0, 6)
-	print gen
+	print (gen)
 
 	if gen==0:
 		key.c()	
@@ -104,7 +104,7 @@ while scale=='c':
 while scale=='a':
 
 	gen=random.randint(0, 6)
-	print gen
+	print (gen)
 
 	if gen==0:
 		key.a()	
