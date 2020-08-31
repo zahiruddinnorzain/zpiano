@@ -60,7 +60,7 @@ class bunyi:
 def play():						#FUNCTION that play and stop the sound
 	key.play()						#play sound that load
 	gap=random.uniform(0.3, 1.3)	#gap between sound 0.3 to 1.3
-	print gap
+	print (gap)
 	time.sleep(gap)					#play sound with this time
 	key.stop()						#stop play the sound
 
@@ -72,7 +72,7 @@ key=bunyi()							#assign object to class
 while True:
 
 	gen=random.randint(0, 11)		#get random number
-	print gen
+	print (gen)
 
 	if gen==0:
 		key.a()
